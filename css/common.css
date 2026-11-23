@@ -47,9 +47,9 @@ button {
 
 .container {
   width: 100%;
-  max-width: 320px;
-  padding-right: 15px;
-  padding-left: 15px;
+  max-width: 352px;
+  padding-right: 16px;
+  padding-left: 16px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -112,6 +112,8 @@ button {
 @media (min-width: 1158px) {
   .container {
     max-width: 1158px;
+    padding-right: 15px;
+    padding-left: 15px;
   }
 
   .features-list,
