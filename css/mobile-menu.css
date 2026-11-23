@@ -41,7 +41,7 @@
   align-items: center;
   justify-content: center;
   padding: 0;
-  margin: 0 0 32px auto;
+  margin: 0 0 24px auto;
   border: 1px solid rgba(46, 47, 66, 0.1);
   border-radius: 50%;
   background-color: #e7e9fc;
@@ -53,10 +53,14 @@
   stroke: currentColor;
 }
 
+.mobile-menu-address {
+  font-style: normal;
+}
+
 .mobile-menu-nav-list {
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 40px;
 }
 
 .mobile-menu-nav-link {
@@ -88,22 +92,24 @@
 
 .mobile-menu-phone {
   color: #4d5ae5;
-  font-size: clamp(24px, 7vw, 36px);
+  font-size: 20px;
   font-weight: 500;
-  line-height: 1.11;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
 .mobile-menu-email {
   color: #434455;
   font-size: 20px;
+  font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
 .mobile-menu-social-list {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  justify-content: space-between;
   gap: 24px;
 }
 

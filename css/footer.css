@@ -146,9 +146,10 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: flex-start;
     column-gap: 24px;
     row-gap: 72px;
+    max-width: 584px;
   }
 
   .footer-info {
@@ -195,6 +196,7 @@
     flex-wrap: nowrap;
     justify-content: flex-start;
     gap: 0;
+    max-width: 1158px;
   }
 
   .footer-info {
